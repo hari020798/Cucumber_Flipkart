@@ -1,0 +1,156 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "user Login to Web application",
+        "description": "",
+        "id": "mixer-booking-in-flipkart-web-application;user-login-to-web-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2487660000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user Launch the web application",
+            "match": {
+              "location": "StepDefenition.user_Launch_the_web_application()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "user Searching and Selecting the Mixer",
+        "description": "",
+        "id": "mixer-booking-in-flipkart-web-application;user-searching-and-selecting-the-mixer",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2585034301,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user search for mixer in the search box",
+            "match": {
+              "location": "StepDefenition.user_search_for_mixer_in_the_search_box()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 102072400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user selects the mixer and navigates to Mixer page",
+            "match": {
+              "location": "StepDefenition.user_selects_the_mixer_and_navigates_to_Mixer_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 403707200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user gets the Mixer name text",
+            "match": {
+              "location": "StepDefenition.user_gets_the_Mixer_name_text()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@Scenario2"
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "user Adding Mixer in Flipkart",
+        "description": "",
+        "id": "mixer-booking-in-flipkart-web-application;user-adding-mixer-in-flipkart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1741082000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user search for Add to cart button",
+            "match": {
+              "location": "StepDefenition.user_search_for_Add_to_cart_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 191260500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user using javaScripts user moved to the Add to cart page",
+            "match": {
+              "location": "StepDefenition.user_using_javaScripts_user_moved_to_the_Add_to_cart_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 190800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user placed the order by selecting the Placeorder",
+            "match": {
+              "location": "StepDefenition.user_placed_the_order_by_selecting_the_Placeorder()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 179800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user enters Email address in the Emailaddress field",
+            "match": {
+              "location": "StepDefenition.user_enters_Email_address_in_the_Emailaddress_field()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@Scenario3"
+          }
+        ]
+      }
+    ],
+    "name": "Mixer Booking in Flipkart Web Application",
+    "description": "",
+    "id": "mixer-booking-in-flipkart-web-application",
+    "keyword": "Feature",
+    "uri": "Flipkart.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Scenario1"
+      }
+    ]
+  }
+]
